@@ -1,4 +1,4 @@
-package com.nhom13.website_ban_sach.dto.dto_entity;
+package com.uit.website_ban_sach.dto.dto_entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
