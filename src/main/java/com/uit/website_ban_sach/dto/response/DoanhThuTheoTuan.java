@@ -1,6 +1,6 @@
-package com.nhom13.website_ban_sach.dto.response;
+package com.uit.website_ban_sach.dto.response;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.DanhMucDTO;
+import com.uit.website_ban_sach.dto.dto_entity.DanhMucDTO;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
