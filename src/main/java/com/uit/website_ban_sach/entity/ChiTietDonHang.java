@@ -1,4 +1,4 @@
-package com.nhom13.website_ban_sach.entity;
+package com.uit.website_ban_sach.entity;
 
 import lombok.*;
 

@@ -1,4 +1,4 @@
-package com.nhom13.website_ban_sach.entity;
+package com.uit.website_ban_sach.entity;
 
 import lombok.*;
 
@@ -6,7 +6,6 @@ import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @Data
 @Entity
