@@ -1,6 +1,6 @@
-package com.nhom13.website_ban_sach.repository;
+package com.uit.website_ban_sach.repository;
 
-import com.nhom13.website_ban_sach.entity.DonHang;
+import com.uit.website_ban_sach.entity.DonHang;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
