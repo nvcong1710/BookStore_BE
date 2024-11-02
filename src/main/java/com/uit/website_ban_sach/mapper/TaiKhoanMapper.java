@@ -1,7 +1,7 @@
-package com.nhom13.website_ban_sach.mapper;
+package com.uit.website_ban_sach.mapper;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.TaiKhoanDTO;
-import com.nhom13.website_ban_sach.entity.TaiKhoan;
+import com.uit.website_ban_sach.dto.dto_entity.TaiKhoanDTO;
+import com.uit.website_ban_sach.entity.TaiKhoan;
 
 public class TaiKhoanMapper {
     public static TaiKhoanDTO mapToTaiKhoanDTO(TaiKhoan taiKhoan){

@@ -1,7 +1,7 @@
-package com.nhom13.website_ban_sach.mapper;
+package com.uit.website_ban_sach.mapper;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.ChiTietDonHangDTO;
-import com.nhom13.website_ban_sach.entity.ChiTietDonHang;
+import com.uit.website_ban_sach.dto.dto_entity.ChiTietDonHangDTO;
+import com.uit.website_ban_sach.entity.ChiTietDonHang;
 
 public class ChiTietDonHangMapper {
 

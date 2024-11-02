@@ -1,7 +1,7 @@
-package com.nhom13.website_ban_sach.mapper;
+package com.uit.website_ban_sach.mapper;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.TacGiaDTO;
-import com.nhom13.website_ban_sach.entity.TacGia;
+import com.uit.website_ban_sach.dto.dto_entity.TacGiaDTO;
+import com.uit.website_ban_sach.entity.TacGia;
 
 public class TacGiaMapper {
     public static TacGiaDTO mapToTacGiaDTO(TacGia tacGia){

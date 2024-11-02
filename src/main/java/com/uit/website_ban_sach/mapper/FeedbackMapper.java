@@ -1,8 +1,7 @@
-package com.nhom13.website_ban_sach.mapper;
+package com.uit.website_ban_sach.mapper;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.FeedbackDTO;
-import com.nhom13.website_ban_sach.entity.Feedback;
-import com.nhom13.website_ban_sach.entity.TaiKhoan;
+import com.uit.website_ban_sach.dto.dto_entity.FeedbackDTO;
+import com.uit.website_ban_sach.entity.Feedback;
 
 public class FeedbackMapper {
     public static Feedback mapToFeedback(FeedbackDTO fbDTO){

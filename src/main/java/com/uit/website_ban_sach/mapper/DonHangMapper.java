@@ -1,7 +1,7 @@
-package com.nhom13.website_ban_sach.mapper;
+package com.uit.website_ban_sach.mapper;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.DonHangDTO;
-import com.nhom13.website_ban_sach.entity.DonHang;
+import com.uit.website_ban_sach.dto.dto_entity.DonHangDTO;
+import com.uit.website_ban_sach.entity.DonHang;
 
 public class DonHangMapper {
     public static DonHang mapToDonHang(DonHangDTO donHangDTO){

@@ -1,7 +1,7 @@
-package com.nhom13.website_ban_sach.mapper;
+package com.uit.website_ban_sach.mapper;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.SachDTO;
-import com.nhom13.website_ban_sach.entity.Sach;
+import com.uit.website_ban_sach.dto.dto_entity.SachDTO;
+import com.uit.website_ban_sach.entity.Sach;
 
 public class SachMapper {
     public static SachDTO mapToSachDTO(Sach b) {
