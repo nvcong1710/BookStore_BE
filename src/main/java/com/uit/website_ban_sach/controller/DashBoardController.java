@@ -1,8 +1,8 @@
-package com.nhom13.website_ban_sach.controller;
+package com.uit.website_ban_sach.controller;
 
-import com.nhom13.website_ban_sach.dto.response.DoanhThuTheoThang;
-import com.nhom13.website_ban_sach.dto.response.DoanhThuTheoTuan;
-import com.nhom13.website_ban_sach.service.DashBoardService;
+import com.uit.website_ban_sach.dto.response.DoanhThuTheoThang;
+import com.uit.website_ban_sach.dto.response.DoanhThuTheoTuan;
+import com.uit.website_ban_sach.service.DashBoardService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;

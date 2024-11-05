@@ -1,8 +1,8 @@
-package com.nhom13.website_ban_sach.controller;
+package com.uit.website_ban_sach.controller;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.DanhMucDTO;
-import com.nhom13.website_ban_sach.mapper.DanhMucMapper;
-import com.nhom13.website_ban_sach.service.DanhMucService;
+import com.uit.website_ban_sach.dto.dto_entity.DanhMucDTO;
+import com.uit.website_ban_sach.mapper.DanhMucMapper;
+import com.uit.website_ban_sach.service.DanhMucService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

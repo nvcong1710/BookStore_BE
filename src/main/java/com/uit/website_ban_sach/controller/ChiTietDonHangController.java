@@ -1,8 +1,7 @@
-package com.nhom13.website_ban_sach.controller;
+package com.uit.website_ban_sach.controller;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.ChiTietDonHangDTO;
-import com.nhom13.website_ban_sach.entity.ChiTietDonHang;
-import com.nhom13.website_ban_sach.service.ChiTietDonHangService;
+import com.uit.website_ban_sach.dto.dto_entity.ChiTietDonHangDTO;
+import com.uit.website_ban_sach.service.ChiTietDonHangService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

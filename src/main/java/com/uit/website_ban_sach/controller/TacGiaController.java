@@ -1,8 +1,8 @@
-package com.nhom13.website_ban_sach.controller;
+package com.uit.website_ban_sach.controller;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.ChiTietTacGiaDTO;
-import com.nhom13.website_ban_sach.dto.dto_entity.TacGiaDTO;
-import com.nhom13.website_ban_sach.service.TacGiaService;
+import com.uit.website_ban_sach.dto.dto_entity.ChiTietTacGiaDTO;
+import com.uit.website_ban_sach.dto.dto_entity.TacGiaDTO;
+import com.uit.website_ban_sach.service.TacGiaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

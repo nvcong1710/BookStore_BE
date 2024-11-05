@@ -1,9 +1,9 @@
-package com.nhom13.website_ban_sach.controller;
+package com.uit.website_ban_sach.controller;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.TaiKhoanDTO;
-import com.nhom13.website_ban_sach.dto.request.LoginRequest;
-import com.nhom13.website_ban_sach.entity.TaiKhoan;
-import com.nhom13.website_ban_sach.service.TaiKhoanService;
+import com.uit.website_ban_sach.dto.dto_entity.TaiKhoanDTO;
+import com.uit.website_ban_sach.dto.request.LoginRequest;
+import com.uit.website_ban_sach.entity.TaiKhoan;
+import com.uit.website_ban_sach.service.TaiKhoanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
