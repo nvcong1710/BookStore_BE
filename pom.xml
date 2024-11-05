@@ -8,11 +8,11 @@
 		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.nhom13</groupId>
+	<groupId>com.uit</groupId>
 	<artifactId>website_ban_sach</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>website_ban_sach</name>
-	<description>Do an mon hoc Cong nghe Java</description>
+	<description>Do an mon hoc</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

@@ -1,14 +1,14 @@
-package com.nhom13.website_ban_sach.service;
+package com.uit.website_ban_sach.service;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.ChiTietTacGiaDTO;
-import com.nhom13.website_ban_sach.dto.dto_entity.SachDTO;
-import com.nhom13.website_ban_sach.dto.dto_entity.TacGiaDTO;
-import com.nhom13.website_ban_sach.entity.Sach;
-import com.nhom13.website_ban_sach.entity.TacGia;
-import com.nhom13.website_ban_sach.mapper.SachMapper;
-import com.nhom13.website_ban_sach.mapper.TacGiaMapper;
-import com.nhom13.website_ban_sach.repository.TacGiaRepository;
-import com.nhom13.website_ban_sach.service.service_interface.ITacGiaService;
+import com.uit.website_ban_sach.dto.dto_entity.ChiTietTacGiaDTO;
+import com.uit.website_ban_sach.dto.dto_entity.SachDTO;
+import com.uit.website_ban_sach.dto.dto_entity.TacGiaDTO;
+import com.uit.website_ban_sach.entity.Sach;
+import com.uit.website_ban_sach.entity.TacGia;
+import com.uit.website_ban_sach.mapper.SachMapper;
+import com.uit.website_ban_sach.mapper.TacGiaMapper;
+import com.uit.website_ban_sach.repository.TacGiaRepository;
+import com.uit.website_ban_sach.service.service_interface.ITacGiaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

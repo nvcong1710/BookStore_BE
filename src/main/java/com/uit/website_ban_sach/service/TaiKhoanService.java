@@ -1,11 +1,11 @@
-package com.nhom13.website_ban_sach.service;
+package com.uit.website_ban_sach.service;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.TaiKhoanDTO;
-import com.nhom13.website_ban_sach.dto.request.LoginRequest;
-import com.nhom13.website_ban_sach.entity.TaiKhoan;
-import com.nhom13.website_ban_sach.mapper.TaiKhoanMapper;
-import com.nhom13.website_ban_sach.repository.TaiKhoanRepository;
-import com.nhom13.website_ban_sach.service.service_interface.ITaiKhoanService;
+import com.uit.website_ban_sach.dto.dto_entity.TaiKhoanDTO;
+import com.uit.website_ban_sach.dto.request.LoginRequest;
+import com.uit.website_ban_sach.entity.TaiKhoan;
+import com.uit.website_ban_sach.mapper.TaiKhoanMapper;
+import com.uit.website_ban_sach.repository.TaiKhoanRepository;
+import com.uit.website_ban_sach.service.service_interface.ITaiKhoanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

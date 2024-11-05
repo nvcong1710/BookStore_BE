@@ -1,4 +1,4 @@
-package com.nhom13.website_ban_sach;
+package com.uit.website_ban_sach;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

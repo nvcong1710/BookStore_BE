@@ -1,9 +1,9 @@
-package com.nhom13.website_ban_sach.service;
+package com.uit.website_ban_sach.service;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.ChiTietDonHangDTO;
-import com.nhom13.website_ban_sach.entity.ChiTietDonHang;
-import com.nhom13.website_ban_sach.mapper.ChiTietDonHangMapper;
-import com.nhom13.website_ban_sach.repository.ChiTietDonHangRepository;
+import com.uit.website_ban_sach.dto.dto_entity.ChiTietDonHangDTO;
+import com.uit.website_ban_sach.entity.ChiTietDonHang;
+import com.uit.website_ban_sach.mapper.ChiTietDonHangMapper;
+import com.uit.website_ban_sach.repository.ChiTietDonHangRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

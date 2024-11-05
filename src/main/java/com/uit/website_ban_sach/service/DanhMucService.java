@@ -1,10 +1,10 @@
-package com.nhom13.website_ban_sach.service;
+package com.uit.website_ban_sach.service;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.DanhMucDTO;
-import com.nhom13.website_ban_sach.entity.DanhMuc;
-import com.nhom13.website_ban_sach.mapper.DanhMucMapper;
-import com.nhom13.website_ban_sach.repository.DanhMucRepository;
-import com.nhom13.website_ban_sach.service.service_interface.IDanhMucService;
+import com.uit.website_ban_sach.dto.dto_entity.DanhMucDTO;
+import com.uit.website_ban_sach.entity.DanhMuc;
+import com.uit.website_ban_sach.mapper.DanhMucMapper;
+import com.uit.website_ban_sach.repository.DanhMucRepository;
+import com.uit.website_ban_sach.service.service_interface.IDanhMucService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

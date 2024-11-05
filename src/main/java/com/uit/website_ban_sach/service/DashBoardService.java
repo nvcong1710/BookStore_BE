@@ -1,11 +1,11 @@
-package com.nhom13.website_ban_sach.service;
+package com.uit.website_ban_sach.service;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.ChiTietDonHangDTO;
-import com.nhom13.website_ban_sach.dto.dto_entity.DanhMucDTO;
-import com.nhom13.website_ban_sach.dto.response.DoanhThuTheoThang;
-import com.nhom13.website_ban_sach.dto.response.DoanhThuTheoTuan;
-import com.nhom13.website_ban_sach.entity.DonHang;
-import com.nhom13.website_ban_sach.repository.DonHangRepository;
+import com.uit.website_ban_sach.dto.dto_entity.ChiTietDonHangDTO;
+import com.uit.website_ban_sach.dto.dto_entity.DanhMucDTO;
+import com.uit.website_ban_sach.dto.response.DoanhThuTheoThang;
+import com.uit.website_ban_sach.dto.response.DoanhThuTheoTuan;
+import com.uit.website_ban_sach.entity.DonHang;
+import com.uit.website_ban_sach.repository.DonHangRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +16,6 @@ import java.time.LocalDateTime;
 import java.time.temporal.WeekFields;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 @Service
 public class DashBoardService {

@@ -1,27 +1,23 @@
-package com.nhom13.website_ban_sach.service;
+package com.uit.website_ban_sach.service;
 
-import com.nhom13.website_ban_sach.dto.dto_entity.DonHangDTO;
-import com.nhom13.website_ban_sach.dto.request.CreateDonHangRequest;
-import com.nhom13.website_ban_sach.entity.ChiTietDonHang;
-import com.nhom13.website_ban_sach.entity.ChiTietGioHang;
-import com.nhom13.website_ban_sach.entity.DonHang;
-import com.nhom13.website_ban_sach.entity.TaiKhoan;
-import com.nhom13.website_ban_sach.mapper.DonHangMapper;
-import com.nhom13.website_ban_sach.repository.ChiTietDonHangRepository;
-import com.nhom13.website_ban_sach.repository.ChiTietGioHangRepository;
-import com.nhom13.website_ban_sach.repository.DonHangRepository;
-import com.nhom13.website_ban_sach.repository.TaiKhoanRepository;
+import com.uit.website_ban_sach.dto.dto_entity.DonHangDTO;
+import com.uit.website_ban_sach.dto.request.CreateDonHangRequest;
+import com.uit.website_ban_sach.entity.ChiTietDonHang;
+import com.uit.website_ban_sach.entity.ChiTietGioHang;
+import com.uit.website_ban_sach.entity.DonHang;
+import com.uit.website_ban_sach.entity.TaiKhoan;
+import com.uit.website_ban_sach.mapper.DonHangMapper;
+import com.uit.website_ban_sach.repository.ChiTietDonHangRepository;
+import com.uit.website_ban_sach.repository.ChiTietGioHangRepository;
+import com.uit.website_ban_sach.repository.DonHangRepository;
+import com.uit.website_ban_sach.repository.TaiKhoanRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
-import java.time.OffsetDateTime;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-
-import static java.time.LocalDateTime.*;
 
 @Service
 public class DonHangService {
