@@ -1,12 +1,9 @@
 package com.nhom13.website_ban_sach.entity;
-
 import jakarta.persistence.*;
 import lombok.*;
-
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -22,11 +19,9 @@ public class Sach {
     private String photoURL;
     private String moTa;
     private LocalDateTime ngayTao;
-
     @ManyToOne
     @JoinColumn(name = "DanhMucId")
     private DanhMuc danhMuc;
-
     @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinTable(
             name = "tacgia_sach",
@@ -34,7 +29,6 @@ public class Sach {
             inverseJoinColumns = @JoinColumn(name = "tacgia_id")
     )
     private List<TacGia> tacGias;
-
     public Sach(String tieuDe, BigDecimal gia, Integer soLuong, String photoURL, String moTa, LocalDateTime ngayTao) {
         this.tieuDe = tieuDe;
         this.gia = gia;
