@@ -5,29 +5,16 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.5</version>
+		<version>3.2.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>uit.edu.vn</groupId>
-	<artifactId>FurnitureStore_BE</artifactId>
+	<groupId>com.uit</groupId>
+	<artifactId>website_ban_sach</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>FurnitureStore_BE</name>
-	<description>Demo project for Spring Boot</description>
-	<url/>
-	<licenses>
-		<license/>
-	</licenses>
-	<developers>
-		<developer/>
-	</developers>
-	<scm>
-		<connection/>
-		<developerConnection/>
-		<tag/>
-		<url/>
-	</scm>
+	<name>website_ban_sach</name>
+	<description>Do an mon hoc</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
