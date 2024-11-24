@@ -8,7 +8,7 @@ public class TaiKhoanMapper {
         return new TaiKhoanDTO(taiKhoan.getId(),
                 taiKhoan.getUsername(),
                 taiKhoan.getPassword(),
-                taiKhoan.getRole(),
+                taiKhoan.getRoles(),
                 taiKhoan.getEmail(),
                 taiKhoan.getGioiTinh());
     }
@@ -17,7 +17,7 @@ public class TaiKhoanMapper {
         return new TaiKhoan(aDTO.getId(),
                 aDTO.getUsername(),
                 aDTO.getPassword(),
-                aDTO.getRole(),
+                aDTO.getRoles(),
                 aDTO.getEmail(),
                 aDTO.getGioiTinh());
     }
