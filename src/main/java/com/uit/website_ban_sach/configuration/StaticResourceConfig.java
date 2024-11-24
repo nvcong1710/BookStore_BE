@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class StaticResourceConfig implements WebMvcConfigurer {
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/book_image/**")
-                .addResourceLocations("classpath:/static/book_image/");
+        registry.addResourceHandler("/sach_image/**")
+                .addResourceLocations("classpath:/static/sach_image/");
     }
 }
