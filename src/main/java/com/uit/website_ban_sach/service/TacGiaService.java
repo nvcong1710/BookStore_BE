@@ -3,6 +3,7 @@ package com.uit.website_ban_sach.service;
 import com.uit.website_ban_sach.dto.dto_entity.ChiTietTacGiaDTO;
 import com.uit.website_ban_sach.dto.dto_entity.SachDTO;
 import com.uit.website_ban_sach.dto.dto_entity.TacGiaDTO;
+import com.uit.website_ban_sach.dto.response.TacGiaResponse;
 import com.uit.website_ban_sach.entity.Sach;
 import com.uit.website_ban_sach.entity.TacGia;
 import com.uit.website_ban_sach.mapper.SachMapper;
@@ -33,12 +34,13 @@ public class TacGiaService implements ITacGiaService {
         return TacGiaMapper.mapToTacGiaDTO(tacGiaRepository.save(TacGiaMapper.mapToTacGia(tg)));
     }
 
-    public List<TacGiaDTO> getAllTacGia() {
+    public List<TacGiaResponse> getAllTacGia() {
         List<TacGia> tacGiaList = tacGiaRepository.findAll();
-        List<TacGiaDTO> tacGiaDTOList = new ArrayList<>();
+        List<TacGiaResponse> tacGiaDTOList = new ArrayList<>();
         for(TacGia tg: tacGiaList){
-            tacGiaDTOList.add(TacGiaMapper.mapToTacGiaDTO(tg));
+            tacGiaDTOList.add(new TacGiaResponse(tg.getId(), tg.getTenTacGia(), tg.getImage(), tg.getSaches().stream().count()));
         }
+
         return tacGiaDTOList;
     }
 

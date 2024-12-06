@@ -40,7 +40,9 @@ public class FeedbackService {
         List<Feedback> dsFb = feedbackRepository.findAllBySachId(id);
         for(Feedback fb: dsFb){
             res.add(new FeedbackResponse(fb.getId(), fb.getTaiKhoan().getUsername(),
-                    fb.getSach().getId(), fb.getNoiDung(),
+                    fb.getSach().getId(),
+                    fb.getSach().getTieuDe(),
+                    fb.getNoiDung(),
                     fb.getSoSao(),
                     fb.getNgayFeedback()));
         }
@@ -52,7 +54,9 @@ public class FeedbackService {
         List<Feedback> dsFb = feedbackRepository.findAll();
         for(Feedback fb: dsFb){
             res.add(new FeedbackResponse(fb.getId(), fb.getTaiKhoan().getUsername(),
-                    fb.getSach().getId(), fb.getNoiDung(),
+                    fb.getSach().getId(),
+                    fb.getSach().getTieuDe(),
+                    fb.getNoiDung(),
                     fb.getSoSao(),
                     fb.getNgayFeedback()));
         }

@@ -1,6 +1,7 @@
 package com.uit.website_ban_sach.service;
 
 import com.uit.website_ban_sach.dto.dto_entity.DanhMucDTO;
+import com.uit.website_ban_sach.dto.response.DanhMucResponse;
 import com.uit.website_ban_sach.entity.DanhMuc;
 import com.uit.website_ban_sach.mapper.DanhMucMapper;
 import com.uit.website_ban_sach.repository.DanhMucRepository;
@@ -27,11 +28,11 @@ public class DanhMucService implements IDanhMucService {
         return DanhMucMapper.mapToDanhMucDTO(danhMucRepository.save(danhMuc));
     }
 
-    public List<DanhMucDTO> getAllDanhMuc() {
-        List<DanhMucDTO> danhMucDTOList = new ArrayList<>();
+    public List<DanhMucResponse> getAllDanhMuc() {
+        List<DanhMucResponse> danhMucDTOList = new ArrayList<>();
         List<DanhMuc> danhMucList = danhMucRepository.findAll();
         for(DanhMuc dm : danhMucList){
-            danhMucDTOList.add(DanhMucMapper.mapToDanhMucDTO(dm));
+            danhMucDTOList.add(new DanhMucResponse(dm.getId(), dm.getTenDanhMuc(), dm.getSaches().stream().count()));
         }
         return danhMucDTOList;
     }

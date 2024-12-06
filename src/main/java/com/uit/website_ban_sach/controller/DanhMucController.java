@@ -1,6 +1,7 @@
 package com.uit.website_ban_sach.controller;
 
 import com.uit.website_ban_sach.dto.dto_entity.DanhMucDTO;
+import com.uit.website_ban_sach.dto.response.DanhMucResponse;
 import com.uit.website_ban_sach.mapper.DanhMucMapper;
 import com.uit.website_ban_sach.service.DanhMucService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,7 +22,7 @@ public class DanhMucController {
     }
 
     @GetMapping("/getalldanhmuc")
-    public List<DanhMucDTO> getAllDanhMuc(){
+    public List<DanhMucResponse> getAllDanhMuc(){
         return danhMucService.getAllDanhMuc();
     }
 
