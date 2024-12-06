@@ -2,6 +2,7 @@ package com.uit.website_ban_sach.service;
 
 import com.uit.website_ban_sach.dto.dto_entity.ChiTietDonHangDTO;
 import com.uit.website_ban_sach.dto.dto_entity.DanhMucDTO;
+import com.uit.website_ban_sach.dto.response.DanhMucResponse;
 import com.uit.website_ban_sach.dto.response.DoanhThuTheoThang;
 import com.uit.website_ban_sach.dto.response.DoanhThuTheoTuan;
 import com.uit.website_ban_sach.entity.DonHang;
@@ -29,8 +30,8 @@ public class DashBoardService {
 
     public List<DoanhThuTheoThang> getSoSachBanTheoDanhMuc(){
         List<DoanhThuTheoThang> res = new ArrayList<>();
-        List<DanhMucDTO> dsDanhMuc = danhMucService.getAllDanhMuc();
-        for(DanhMucDTO dm: dsDanhMuc){
+        List<DanhMucResponse> dsDanhMuc = danhMucService.getAllDanhMuc();
+        for(DanhMucResponse dm: dsDanhMuc){
             DoanhThuTheoThang dttt = new DoanhThuTheoThang(dm);
             res.add(dttt);
         }
@@ -57,8 +58,8 @@ public class DashBoardService {
 
     public List<DoanhThuTheoTuan> getDoanhThuTuanHienTai(){
         List<DoanhThuTheoTuan> res = new ArrayList<>();
-        List<DanhMucDTO> dsDanhMuc = danhMucService.getAllDanhMuc();
-        for(DanhMucDTO dm: dsDanhMuc){
+        List<DanhMucResponse> dsDanhMuc = danhMucService.getAllDanhMuc();
+        for(DanhMucResponse dm: dsDanhMuc){
             DoanhThuTheoTuan dttt = new DoanhThuTheoTuan(dm);
             res.add(dttt);
         }
@@ -83,8 +84,8 @@ public class DashBoardService {
 
     public List<DoanhThuTheoTuan> getDoanhThuTuanTruoc(){
         List<DoanhThuTheoTuan> res = new ArrayList<>();
-        List<DanhMucDTO> dsDanhMuc = danhMucService.getAllDanhMuc();
-        for(DanhMucDTO dm: dsDanhMuc){
+        List<DanhMucResponse> dsDanhMuc = danhMucService.getAllDanhMuc();
+        for(DanhMucResponse dm: dsDanhMuc){
             DoanhThuTheoTuan dttt = new DoanhThuTheoTuan(dm);
             res.add(dttt);
         }

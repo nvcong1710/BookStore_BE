@@ -13,6 +13,7 @@ public class FeedbackResponse {
     private Long id;
     private String tenTaiKhoan;
     private Long sachId;
+    private String sachName;
     private String noiDung;
     private Integer soSao;
     private Date ngayFeedback;

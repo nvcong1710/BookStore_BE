@@ -9,9 +9,9 @@ import java.math.BigDecimal;
 @Data
 @NoArgsConstructor
 public class DoanhThuTheoThang {
-    DanhMucDTO danhMuc;
+    DanhMucResponse danhMuc;
     public BigDecimal[] soLuongSach = new BigDecimal[12];
-    public DoanhThuTheoThang(DanhMucDTO dm){
+    public DoanhThuTheoThang(DanhMucResponse dm){
         danhMuc = dm;
         for(int i = 0; i < 12; i++){
             soLuongSach[i] = BigDecimal.valueOf(0);

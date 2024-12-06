@@ -2,6 +2,7 @@ package com.uit.website_ban_sach.controller;
 
 import com.uit.website_ban_sach.dto.dto_entity.ChiTietTacGiaDTO;
 import com.uit.website_ban_sach.dto.dto_entity.TacGiaDTO;
+import com.uit.website_ban_sach.dto.response.TacGiaResponse;
 import com.uit.website_ban_sach.service.TacGiaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -17,8 +18,9 @@ public class TacGiaController {
     TacGiaService tacGiaService;
 
     @GetMapping("/getalltacgia")
-    public ResponseEntity<List<TacGiaDTO>> getAllTacGia(){
-        List<TacGiaDTO> tacGiaDTOList = tacGiaService.getAllTacGia();
+    public ResponseEntity<List<TacGiaResponse>> getAllTacGia(){
+        List<TacGiaResponse> tacGiaDTOList = tacGiaService.getAllTacGia();
+
         return ResponseEntity.ok(tacGiaDTOList);
     }
 
